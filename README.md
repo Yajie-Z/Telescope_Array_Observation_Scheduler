@@ -1,1 +1,1 @@
-# Telescope-Array-Observation-Scheduler-
+# Telescope Array Observation Scheduler
