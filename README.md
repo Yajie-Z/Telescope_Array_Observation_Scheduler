@@ -4,7 +4,7 @@ This is the main source code of the paper "A Multi-level Scheduling Framework fo
 
 
 - [Global Scheduler](#global)
-  * [More About Telescope Array Scheduler](#more-about-telescope-array-scheduler)
+  * [Multi-level Telescope Array Scheduling Model](#more-about-telescope-array-scheduler)
     
   * [Running](#running)
     + [Dependencies](#dependencies)
