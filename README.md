@@ -21,7 +21,6 @@ a multi-level scheduling model is proposed to describe the optical time domain s
 The proposed site scheduler and telescope scheduler, as the scheduling decision-maker for a short period of time, are responsible for allocating the tasks issued by the global scheduler to each telescope in the observation site, calculating the specific start and end time of observations with finer granularity, and determining the final observation task queue for each telescope. During this process, the effects of real-time weather conditions around the observation sites, as well as the performance and status of telescopes are taken into account in detail.Furthermore, the overall progress of the survey, that is, the completion of observation tasks, will be recorded and statistically analyzed, and important indicators will be visualized.
 
 
-
 ## Running
 
 ### Dependencies
@@ -36,25 +35,20 @@ The proposed site scheduler and telescope scheduler, as the scheduling decision-
 ## Getting Started
 
 ### Data
-We provide simple test data with 2 observation sites and 50 fields in the folder "input_data". We used the positions of global real observatories from the Astropy library to simulate the distribution of observation sites in a distributed telescope array. You can also get more field data from [ZTF project](https://github.com/ZwickyTransientFacility/ztf_sim/blob/master/data) or generate simulated data according to specific project requirements. 
+We provide simple test data with 2 observation sites and 50 fields in the `input_data/` directory. We used the positions of global real observatories from the Astropy library to simulate the distribution of observation sites in a distributed telescope array. You can also get more field data from [ZTF project](https://github.com/ZwickyTransientFacility/ztf_sim/blob/master/data) or generate simulated data according to specific project requirements. 
 
 configuration.json
 
 ### Minimal example
 
-1. After successful compilation, do the following thing for cross-matching performance testing:
+1.Specify the input data and set the relevant parameters in the configuration file
 
-```shell
-$  ./Crossmatch ../data_sample/sample1_sdss.csv ../data_sample/sample2_sdss.csv 
-```
-The cross-matching time of the two catalogues will be printed in the console.
 
-2. If you want to get the cross-matching result, use the following command:
+2. Use the following command to start the scheduling:
 
 ```shell
 $  python main.py
 ```
-Successfully matched catalogue record pairs are printed in the specified output file.
 
 An open-source library from [LSST](https://github.com/lsst/rubin_sim) was utilised to evaluate the 5-sigma limiting magnitude for the scheduled observations. Note that it calculates the limiting magnitude of LSST, and the results will be different for different telescopes. Similar models can be used for the calculation of
 observation conditions in the telescope array scheduling problem.
