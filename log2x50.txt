@@ -1,0 +1,358 @@
+S1:
+	Gap1 of  550 mins
+	At time   550: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   55 mins
+	At time   610: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   620: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   635: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   640: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   645: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   660: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   665: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   670: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   15 mins
+	At time   690: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   695: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   700: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   705: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   710: Observation 1480 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   715: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   725: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   735: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   740: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   750: Observation 1480 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   760: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   765: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   770: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   775: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   785: Observation 1482 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   790: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   800: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   805: Observation 1482 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   810: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   815: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   820: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   830: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   835: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   840: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   845: Observation 1107 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   850: Observation 1470 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   855: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   860: Observation 1475 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   865: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   875: Observation 1482 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   880: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   885: Observation 1105 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   890: Observation 1109 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   895: Observation 1482 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   900: Observation 1475 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   905: Observation 1103 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   910: Observation 1478 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   915: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   920: Observation 1101 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   925: Observation 1471 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   930: Observation 1110 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   935: Observation 1106 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   940: Observation 1111 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   945: Observation 1486 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   950: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   955: Observation 1480 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   960: Observation 1102 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   965: Observation 1485 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   970: Observation 1473 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   975: Observation 1476 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   980: Observation 1487 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   985: Observation 1471 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   990: Observation 1106 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time   995: Observation 1110 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1000: Observation 1108 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1005: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1010: Observation 1113 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1015: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1020: Observation 1476 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1025: Observation 1109 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1030: Observation 1107 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1035: Observation 1113 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1040: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1050: Observation 1109 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1055: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1060: Observation 1109 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1065: Observation 1486 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1070: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1075: Observation 1110 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1080: Observation 1101 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1085: Observation 1479 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1090: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1095: Observation 1108 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1100: Observation 1487 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1105: Observation 1111 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1110: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1115: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1120: Observation 1108 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1125: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1130: Observation 1108 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1135: Observation 1109 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1140: Observation 1486 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1145: Observation 1117 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1150: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1155: Observation 1487 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1160: Observation 1113 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1165: Observation 1488 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1170: Observation 1118 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1175: Observation 1108 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1180: Observation 1485 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1185: Observation 1104 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1190: Observation 1120 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1195: Observation 1117 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1205: Observation 1111 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1215: Observation 1107 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1220: Observation 1116 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1225: Observation 1112 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1230: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1235: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1240: Observation 1119 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1245: Observation 1484 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1250: Observation 1477 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1255: Observation 1482 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1260: Observation 1118 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1265: Observation 1117 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1270: Observation 1488 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1275: Observation 1480 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1280: Observation 1113 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1285: Observation 1492 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1295: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1300: Observation 1490 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1305: Observation 1492 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1310: Observation 1485 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1315: Observation 1493 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1320: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1325: Observation 1487 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1330: Observation 1490 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1335: Observation 1480 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1340: Observation 1481 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1350: Observation 1117 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1355: Observation 1494 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1360: Observation 1119 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1365: Observation 1490 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1375: Observation 1113 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1380: Observation 1485 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1385: Observation 1492 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1390: Observation 1485 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1395: Observation 1490 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1400: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1405: Observation 1114 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1410: Observation 1112 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1415: Observation 1496 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	At time  1420: Observation 1483 , resource=S1  , obs_time=  5 mins, priority= 1.0
+	Gap of   15 mins
+	Usage: 710,875, 81.14285714285714%, Fitness: 1.2777777777777826
+
+S2:
+	Gap1 of  460 mins
+	At time   460: Observation 1481 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   465: Observation 1118 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   470: Observation 1114 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   475: Observation 1482 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   480: Observation 1115 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   485: Observation 1488 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   495: Observation 1119 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   500: Observation 1487 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   505: Observation 1117 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   510: Observation 1488 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   515: Observation 1117 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   520: Observation 1482 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   525: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   530: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   540: Observation 1116 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   545: Observation 1119 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   550: Observation 1484 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   555: Observation 1486 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   560: Observation 1484 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   565: Observation 1118 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   570: Observation 1485 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   575: Observation 1488 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   580: Observation 1487 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   585: Observation 1491 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   590: Observation 1118 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   595: Observation 1119 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   600: Observation 1488 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   605: Observation 1491 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   610: Observation 1485 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   615: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   620: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   625: Observation 1485 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   630: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   635: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   640: Observation 1487 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   650: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   655: Observation 1486 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   670: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   675: Observation 1487 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   680: Observation 1486 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   685: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   690: Observation 1486 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   695: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   700: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   705: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   715: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   720: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   725: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   735: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   740: Observation 1487 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   745: Observation 1488 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   750: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   755: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   760: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   765: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   770: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   775: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   780: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   785: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   790: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   795: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   810: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   815: Observation 1489 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   830: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   835: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   840: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   845: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of   10 mins
+	At time   860: Observation 1490 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   865: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   870: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   880: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   890: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   900: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   905: Observation 1491 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   910: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   915: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   920: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   930: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   940: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   945: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   950: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   955: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   960: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   965: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   975: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time   985: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   990: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time   995: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1000: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1005: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1010: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1015: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1020: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1025: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1030: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1035: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1040: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1045: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1050: Observation 1477 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1055: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1060: Observation 1477 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1065: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1070: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1075: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1080: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1085: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1090: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1095: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1100: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1105: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1110: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1115: Observation 1479 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1120: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1125: Observation 1479 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1130: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1135: Observation 1480 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1140: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1145: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1155: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1160: Observation 1478 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1165: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1170: Observation 1477 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1175: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1180: Observation 1479 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1185: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1190: Observation 1478 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1195: Observation 1101 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1205: Observation 1479 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1210: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1220: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1225: Observation 1479 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1230: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1235: Observation 1103 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1240: Observation 1482 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1245: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1250: Observation 1104 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1255: Observation 1480 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1260: Observation 1474 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1265: Observation 1102 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1270: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1275: Observation 1102 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1280: Observation 1105 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1285: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1290: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1295: Observation 1106 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1300: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1305: Observation 1473 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1310: Observation 1471 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1315: Observation 1476 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1320: Observation 1103 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1325: Observation 1470 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1330: Observation 1484 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1335: Observation 1483 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap1 of    5 mins
+	At time  1345: Observation 1105 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1350: Observation 1103 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1355: Observation 1484 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1360: Observation 1482 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1365: Observation 1481 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1370: Observation 1484 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1375: Observation 1101 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1380: Observation 1107 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1385: Observation 1102 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1390: Observation 1105 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1395: Observation 1481 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1400: Observation 1478 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1405: Observation 1472 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1410: Observation 1477 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1415: Observation 1475 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	At time  1420: Observation 1485 , resource=S2  , obs_time=  5 mins, priority= 1.0
+	Gap of   15 mins

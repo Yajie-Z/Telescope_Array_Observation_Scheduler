@@ -1,0 +1,11 @@
+{
+    "comment": "configuration of the global scheduler",
+    "obs_mode": "survey",
+	"default_start_time": "2015-05-15 12:00:00",
+    "default_end_time": "2015-05-16 12:00:00",
+    "default_scheduling_block_length": "24",
+    "default_timeslot_length": "5",
+    "default_input_resource": "input_data/resources-2",
+    "default_input_surveyplan": "input_data/surveyplan-50"
+}
+
