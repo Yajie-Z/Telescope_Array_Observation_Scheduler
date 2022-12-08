@@ -41,8 +41,7 @@ configuration.json
 
 ### Minimal example
 
-1.Specify the input data and set the relevant parameters in the configuration file
-
+1. Specify the input data and set the relevant parameters in the configuration file ( `input_data/configuration.json`)
 
 2. Use the following command to start the scheduling:
 
