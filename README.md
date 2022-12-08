@@ -37,7 +37,6 @@ The proposed site scheduler and telescope scheduler, as the scheduling decision-
 ### Data
 We provide simple test data with 2 observation sites and 50 fields in the `input_data/` directory. We used the positions of global real observatories from the Astropy library to simulate the distribution of observation sites in a distributed telescope array. You can also get more field data from [ZTF project](https://github.com/ZwickyTransientFacility/ztf_sim/blob/master/data) or generate simulated data according to specific project requirements. 
 
-configuration.json
 
 ### Minimal example
 
