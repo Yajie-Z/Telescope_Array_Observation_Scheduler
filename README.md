@@ -1,25 +1,14 @@
 # Telescope Array Observation Scheduler
-A Multi-level Scheduling Framework for Distributed Time Domain Large-area Sky Survey Telescope Array
 
-This is the main source code of HLC2, which can 
+This is the main source code of the paper "A Multi-level Scheduling Framework for Distributed Time Domain Large-area Sky Survey Telescope Array", which proposes a multi-level scheduling model oriented towards the problem of telescope array scheduling for time-domain surveys.
 
-- [HLC2](#hcgrid)
-  * [More About HLC2](#more-about-hcgrid)
-    + [Implementation](#implementation)
-    + [Features](#features)
-  * [Installation](#installation)
-    + [Dependencies](#dependencies)
-    + [Build from source](#build-from-source)
-  * [Getting Started](#getting-started)
-    + [Minimal example](#minimal-example)
-  * [Community Contribution and Advice](#community-contribution-and-advice)
 
 - [Global Scheduler](#global)
   * [More About Telescope Array Scheduler](#more-about-telescope-array-scheduler)
-    + [Implementation](#implementation)
-  * [Running](#installation)
+    
+  * [Running](#running)
     + [Dependencies](#dependencies)
-  * [Getting Started](#getting-started)
+    + [Data](#data)
     + [Minimal example](#minimal-example)
   * [Community Contribution and Advice](#community-contribution-and-advice)
 
@@ -27,34 +16,29 @@ This is the main source code of HLC2, which can
 
 ## More About Telecope Array Scheduler
 
-dddd
-
-### Implementation
-
-The specific steps of cross-matching for two astronomical catalogues are shown in the following figure. 
-
-<P align="center"><img src=figs/model.png hidth="48%" width="70%"></img></p>
-
-First the **Extraction module** extracts celestial position information (mainly RA, DEC) from the input data and filters out useless information. The **First-level partition module** divides the extracted location information into HEALPix data blocks, while our quad-direction strategy is implemented in the **Boundary processing module** to reduce the loss of accuracy without adding too much redundant data. Then through **Second-level partition module**, calculation blocks can be obtained for storing and subsequent parallel accessing catalogue records on GPU. **Source reading module** is designed to retrieve the current CPU and GPU computing status to dynamically adjust splitting strategy. On the GPU, the inter-catalogue parallelization is adopted to calculate the radius distances on **Kernel module** with I/O optimizations on the **Compression module**. Finally, the matching results transferred to CPU will be exported the final products and be visualized. This function is under development. 
+As shown in the following Figure, <P align="center"><img src=figs/model.png hidth="48%" width="70%"></img></p>
+a multi-level scheduling model is proposed to describe the optical time domain sky survey observation process of the telescope array. The telescope array observation scheduling problem can be solved by the global scheduler and multiple site schedulers or telescope schedulers respectively. The global scheduler is designed as a long-term scheduler which acts as a central node to compute the scheduling strategies. It coordinates the telescopes of all observation sites and globally controls the progress of the sky survey and  utilization of resources. Periodically, it determines the suitable observation time of each site for each field according to the observation conditions and the image quality feedback. The preliminary scheduling results will be sent to astronomical observatories. At the same time, the global scheduler receives the execution feedback from the telescopes and makes decision changes to update and adjust the observation plans for the next scheduling coverage time for special cases (such as transient source tracking, telescope failure, poor observation quality, internet connection down, etc.). 
+The proposed site scheduler and telescope scheduler, as the scheduling decision-maker for a short period of time, are responsible for allocating the tasks issued by the global scheduler to each telescope in the observation site, calculating the specific start and end time of observations with finer granularity, and determining the final observation task queue for each telescope. During this process, the effects of real-time weather conditions around the observation sites, as well as the performance and status of telescopes are taken into account in detail.Furthermore, the overall progress of the survey, that is, the completion of observation tasks, will be recorded and statistically analyzed, and important indicators will be visualized.
 
 
-## Installation
+
+## Running
 
 ### Dependencies
 
-- CUDA Toolkit: https://developer.nvidia.com/cuda-toolkit-archive
+- Astropy
+- Astroplan
+- Numpy
+- Matplotlib
+- [Gurobi](http://www.gurobi.com/) ([Free academic licenses](http://www.gurobi.com/academia/for-universities) are readily available)
 
-### Build from source
-
-1. Change the direction to 'HLC2' directory
-
-2. Update the library file paths in the Makefile according to the paths of installed dependencies.
-
-3. Generate an executable file named Crossmatch: make
-
-4. To clear the files generated by the last make command, run this command: make clean
 
 ## Getting Started
+
+### Data
+We provide simple test data with 2 observation sites and 50 fields in the folder "input_data". We used the positions of global real observatories from the Astropy library to simulate the distribution of observation sites in a distributed telescope array. You can also get more field data from [ZTF project](https://github.com/ZwickyTransientFacility/ztf_sim/blob/master/data) or generate simulated data according to specific project requirements. 
+
+configuration.json
 
 ### Minimal example
 
@@ -68,9 +52,12 @@ The cross-matching time of the two catalogues will be printed in the console.
 2. If you want to get the cross-matching result, use the following command:
 
 ```shell
-$  ./Crossmatch ../data_sample/sample1_sdss.csv ../data_sample/sample2_sdss.csv result.txt
+$  python main.py
 ```
 Successfully matched catalogue record pairs are printed in the specified output file.
+
+An open-source library from [LSST](https://github.com/lsst/rubin_sim) was utilised to evaluate the 5-sigma limiting magnitude for the scheduled observations. Note that it calculates the limiting magnitude of LSST, and the results will be different for different telescopes. Similar models can be used for the calculation of
+observation conditions in the telescope array scheduling problem.
 
 ## Community Contribution and Advice
 
