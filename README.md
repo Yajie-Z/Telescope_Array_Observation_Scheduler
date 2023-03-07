@@ -1,7 +1,9 @@
 # A Multi-level Scheduling Framework for Distributed Time Domain Large-area Sky Survey Telescope Array
 
-Paper:
-arXiv preprint:
+Paper: https://iopscience.iop.org/article/10.3847/1538-3881/acac24
+
+arXiv preprint: https://arxiv.org/abs/2301.07860
+
 We propose a multi-level scheduling model oriented towards the problem of telescope array scheduling for time-domain surveys.
 
 
