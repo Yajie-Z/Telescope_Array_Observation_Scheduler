@@ -1,6 +1,8 @@
-# Telescope Array Observation Scheduler
+# A Multi-level Scheduling Framework for Distributed Time Domain Large-area Sky Survey Telescope Array
 
-This is the main source code of the paper "A Multi-level Scheduling Framework for Distributed Time Domain Large-area Sky Survey Telescope Array", which proposes a multi-level scheduling model oriented towards the problem of telescope array scheduling for time-domain surveys.
+Paper:
+arXiv preprint:
+We propose a multi-level scheduling model oriented towards the problem of telescope array scheduling for time-domain surveys.
 
 
 - [Global Scheduler](#global)
